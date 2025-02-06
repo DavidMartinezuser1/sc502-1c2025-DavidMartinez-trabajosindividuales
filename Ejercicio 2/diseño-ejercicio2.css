@@ -1,0 +1,140 @@
+/* Esto es la barrita de arriba*/ 
+.navbar{
+    display:  flex;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 10px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navbar a:hover{
+background-color: #575757;
+}
+
+aside{
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Cajita del primer comentario*/ 
+
+.Medicos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.tarjeta-producto{
+    width: 750px;
+    border: 2px solid #ccc;
+    border-radius: 7px;
+    padding: 25px;
+    margin: 25px;
+    text-align: center;
+    box-shadow: 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: "Times New Roman", Times, serif;
+}
+
+.nombre-doctor {
+    color: #07cd0d;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.tarjeta-producto p{
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Estilo para el botón de adorno */
+.btn-adorno {
+    background-color: #007bff; /* Color de fondo azul */
+    border: 2px solid #0056b3; /* Borde azul más oscuro */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    font-family: 'Times New Roman', Times, serif; /* Fuente */
+    cursor: pointer; /* Hace que el puntero cambie a una mano al pasar por encima */
+    font-size: 16px; /* Tamaño de la fuente */
+    color: #fff; /* Color de las letras (blanco) */
+    transition: background-color 0.3s ease; /* Transición suave al pasar el ratón */
+}
+
+.btn-adorno:hover {
+    background-color: #0056b3; /* Cambio a azul más oscuro al pasar el ratón */
+}
+
+/* Cajita del primer comentario (María Pérez) */ 
+.Comentarios {
+    display: flex;
+    justify-content: flex-start; /* Alinea a la izquierda */
+    align-items: flex-start; /* Alinea al inicio */
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.tarjeta-paciente {
+    width: 250px; /* Tamaño de la cajita */
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 25px;
+    margin: 25px;
+    text-align: center;
+    box-shadow: 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Times New Roman', Times, serif;
+    align-self: flex-start; /* Se mantiene alineado a la izquierda */
+}
+
+.Comentarios2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Alinea al inicio (hacia arriba) */
+    flex-wrap: wrap;
+    margin-top: 15px;
+    position: relative;
+}
+
+.tarjeta-paciente2 {
+    width: 250px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 25px;
+    margin: 25px;
+    text-align: center;
+    box-shadow: 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Times New Roman', Times, serif;
+    align-self: flex-start;
+    position: relative;
+    top: -150px; /* Esto sube la cajita 20px hacia arriba */
+}
+
+/* Cajita del tercer comentario (Ana Gómez) */ 
+.Comentarios3 {
+    display: flex;
+    justify-content: flex-end; /* Alinea a la derecha */
+    align-items: flex-start; /* Alinea al principio (hacia arriba) */
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.tarjeta-paciente3 {
+    width: 250px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 25px;
+    margin: 25px;
+    text-align: center;
+    box-shadow: 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Times New Roman', Times, serif;
+    align-self: flex-start; /* Mantenerlo alineado arriba */
+    position: relative; /* Hacer que `top` funcione */
+    top: -610px; /* Mueve la cajita hacia arriba */
+}
