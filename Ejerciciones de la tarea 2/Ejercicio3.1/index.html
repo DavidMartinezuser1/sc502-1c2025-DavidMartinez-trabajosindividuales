@@ -1,0 +1,23 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title> Administrador de productos en una tienda virtual </title>      
+    </head>
+    <body>
+      <h1> Esta pagina le ayudara a Administrar de manera Automatica los Juguetes de su tienda virtual</h1>
+      <input type="text" id="palabra" placeholder="Ingrese el nombre del producto">
+      <input type="number" id="precio1" placeholder="Ingrese el precio del producto">
+      <select id="category" >
+      <option value="Electronica"> Juguete electronico </option> 
+      <option value="Manual"> Juguete Manual (Como una bola) </option>
+      <option value="Exclusivo"> Es un Juguete Exclusivo </option>
+      </select>
+      <button class="boton1" onclick="guardar()">Presione Aqui para guardar el producto</button>
+     <button class="boton2" onclick="buscar()"> Presione aqui para buscar jugutes (por categoria) </button>
+     <button class="boton3" onclick="eliminar()"> Presione aqui para eliminar el producto</button>
+     
+     <script src="script.js" ></script>
+    </body>
+</html>
